@@ -1,0 +1,112 @@
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.35s ease, visibility 0.35s ease;
+}
+  
+.dialog-content {
+  display: flex;
+  background: white;
+  color: rgb(108, 108, 108);
+  border-radius: 1em;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 60em;
+  height: 25em;
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(-50px);
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.dialog-overlay.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dialog-overlay.open .dialog-content {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animal-card-in-dialog{
+  width: 30em;
+  height: 25em;
+  border-radius: 1em 0 0 1em;
+}
+
+.adoption-text-container{
+  display: flex;
+  width: 30em;
+  height: 25em;
+  flex-direction: column;
+}
+
+.upper-adoption-text-container{
+  display: flex;
+  width: 30em;
+  height: 7em;
+  justify-content: space-between;
+}
+
+.upper-left-adoption-text-container{
+  display: flex;
+  width: 20em;
+  height: 7em;
+  justify-content: flex-start;
+  margin-left: 2em;
+  align-items: center;
+}
+
+.upper-right-adoption-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10em;
+  height: 7em;
+}
+
+.description-adoption-text-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 26em;
+  justify-content: center;
+  height: 15em;
+  padding: 2em;
+}
+
+.adoption-btn-container{
+  display: flex;
+  height: 3em;
+  width: 20em;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.adoption-btn-container:hover {
+  opacity: .8;
+  transform: translateY(0.08em);
+  transition-duration: .35s;
+}
+
+.divider {
+  background-color: #e2e2e2;
+  align-self: stretch;
+  height: .01em;
+  margin-left: 1em;
+  margin-right: 1em;
+}

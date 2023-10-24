@@ -1,0 +1,60 @@
+.adoption-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30em;
+    margin-right: 2em;
+}
+  
+.form-group {
+    margin-bottom: 1.5em;
+    width: 30em;
+}
+  
+.form-group input {
+    width: 30em;
+    padding: 1em;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.submit-form-btn {
+    background-color: #61a3fa;
+    border-radius: 0.5em;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+    padding: 0.5em 9.1em;
+    margin-top: .5em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+}
+  
+.submit-form-btn:hover {
+    background-color: #1366d6;
+    box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+  
+.submit-form-btn:hover:after {
+    opacity: .5;
+}
+  
+.submit-form-btn:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+  
+.submit-form-btn:active:after {
+    opacity: 1;
+}
+
+  

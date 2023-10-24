@@ -1,0 +1,31 @@
+h1 {
+    font-size: 7em;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+}
+
+.search-and-filter-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 3em;
+}
+
+.cards-container{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 10em;
+    height: 15em;
+    margin: 3em;
+}
+

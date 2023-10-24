@@ -1,0 +1,35 @@
+.catalog-btn {
+    color: rgb(108, 108, 108);
+    border-radius: 0.5em;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    padding: 0.7em 4em;
+    margin-top: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+}
+  
+.catalog-btn:hover {
+    background-color: rgb(225, 225, 225);
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    opacity: 1;
+    transform: translateY(.1em);
+    transition-duration: .35s;
+}
+  
+.catalog-btn:hover:after {
+    opacity: .5;
+}
+  
+.catalog-btn:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+  
+.catalog-btn:active:after {
+    opacity: 1;
+}

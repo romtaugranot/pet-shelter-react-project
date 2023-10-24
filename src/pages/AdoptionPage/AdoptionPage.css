@@ -1,0 +1,80 @@
+.adoption-page-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.upper-adoption-page-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.lower-adoption-page-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.animal-details-container{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.adoption-form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(108, 108, 108);
+    width: 40em;
+    height: 37.5em;
+    margin-top: .5em;
+    margin-right: 2em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;    
+}
+
+.animal-card-adoption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(108, 108, 108);
+    width: 40em;
+    height: 30em;
+    margin-top: .5em;
+    margin-left: 2em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;    
+}
+
+.animal-text-adoption-card{
+    display: flex;
+    width: 40em;
+    height: 7em;
+    justify-content: space-between;
+    color: rgb(108, 108, 108);
+    margin-left: 2em;
+    margin-top: .5em;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;    
+}
+  
+.left-animal-text-adoption-card{
+    display: flex;
+    width: 20em;
+    justify-content: flex-start;
+    margin-left: 2em;
+    align-items: center;
+}
+  
+.right-animal-text-adoption-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+}
+

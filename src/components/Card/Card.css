@@ -1,0 +1,45 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(108, 108, 108);
+    width: 15em;
+    height: 14em;
+    margin: 3em;
+    background-color: white;
+    border-radius: 1em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;    
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, .05) 0 5px 30px, rgba(0, 0, 0, .05) 0 1px 4px;
+    background-color: rgb(224, 222, 222);
+    opacity: 0.9;
+    transform: translateY(5px);
+    transition-duration: .35s;
+    cursor: pointer;
+}
+  
+.card:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(10px);
+    transition-duration: .35s;
+}
+  
+.card:active:after {
+    opacity: 1;
+}
+
+.animal-card{
+    width: 15em;
+    height: 11em;
+    border-radius: 1em 1em 0 0;
+}
+
+h3{
+    margin: 0.2em;
+}
+
+p{
+    margin: 0;
+}

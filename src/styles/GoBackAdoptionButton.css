@@ -1,0 +1,36 @@
+.go-back-adoption-btn {
+    color: rgb(108, 108, 108);
+    border-radius: .5em;
+    border-style: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: 0.5em 2em;
+    margin-left: 3em;
+    margin-bottom: 0.5em;
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+}
+  
+.go-back-adoption-btn:hover {
+    background-color: rgb(225, 225, 225);
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-duration: .35s;
+}
+  
+.go-back-adoption-btn:hover:after {
+    opacity: .5;
+}
+  
+.go-back-adoption-btn:active {
+    box-shadow: rgba(0, 0, 0, .1) 0 3px 6px 0, rgba(0, 0, 0, .1) 0 0 10px 0, rgba(0, 0, 0, .1) 0 1px 4px -1px;
+    transform: translateY(2px);
+    transition-duration: .35s;
+}
+  
+.go-back-adoption-btn:active:after {
+    opacity: 1;
+}
